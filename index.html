@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" >
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <title>Boot Hair</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Boot Hair</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cabelo">Cabelo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#maquiagem">Maquiagem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="carousel-icon" class="container carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/makeup-brushes-1761648_1920.jpg" alt="maquiagem" />
+                <div class="carousel-caption">
+                    <h2>Linha Make</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/cosmetics-3485914_1920.jpg" alt="cosméticos"/>
+                <div class="carousel-caption">
+                    <h2>Cosméticos</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/eye-shadows-6198839_1920.jpg" alt="kit maquiagem" />
+                <div class="carousel-caption">
+                    <h2>Kit Maquiagens</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/banner-horizontal-para-produtos-de-beleza-com-espaco-de-copia.jpg" alt="sabonetes naturais" />
+                <div class="carousel-caption">
+                    <h2>Sabonetes Naturais</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/hair-care-4541744.jpg" alt="shampoos" />
+                <div class="carousel-caption">
+                    <h2>Shampoos Boot Hair</h2>
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#carousel-icon" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-icon" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-icon" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-icon" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-icon" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carousel-icon" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#carousel-icon" data-bs-slide-to="4"></button>
+        </div>
+    </div>
+    </div>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="home">
+            <div class="container">
+                <h2>Home</h2>
+                <div class="row">
+                    <div class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary">
+                            <div class="card-header">
+                                Linha Make
+                            </div>
+                            <img src="./images/linha make.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Maquiagem Profissional</h4>
+                                <p class="card-text">Aprenda como fazer preparação de pele perfeita e esfumados
+                                    profissionais no curso de Maquiagem profissional!
+                                    Ser maquiador profissional permite que você construa o seu horário e sua agenda de
+                                    clientes, tornando-se um negócio flexível e rentável!
+                                </p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary">
+                            <div class="card-header">
+                                Linha Fashion
+                            </div>
+                            <img src="./images/linha-fashion.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Produtos Fashion</h4>
+                                <p class="card-text">Além de um ótimo creme de pentear, o Leite Siliconizado Fashion vai
+                                    proteger seu cabelo do cloro da piscina, sal da água do mar, vento, poeira. Ele é
+                                    maravilhoso. Linha desenvolvida para todos os tipos de cabelo, modelando pra o mais fashion do momento.</p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary text-bg-secondary">
+                            <div class="card-header">
+                                Linha Boot-Hair
+                            </div>
+                            <img src="./images/Boot Hair.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Hair Fashion</h4>
+                                <p class="card-text">A linha Boot Hair Fashion foi desenvolvida para todos os tipos de
+                                    cabelos. Proporciona fios leves, hidratados e muito brilhantes.  As partículas de mica dourada trazem luminosidade aos
+                                    fios e os deixam radiantes. Para todos os tipos de cabelos e Brilho .
+                                </p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card-extra" class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary text-bg-secondary">
+                            <div class="card-header">
+                                Linha Card Extra
+                            </div>
+                            <img src="./images/Boot Hair.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Hair Fashion</h4>
+                                <p class="card-text">A linha Boot Hair Fashion foi desenvolvida para todos os tipos de
+                                    cabelos. Proporciona fios leves, hidratados e muito brilhantes.  As partículas de mica dourada trazem luminosidade aos
+                                    fios e os deixam radiantes. Para todos os tipos de cabelos e Brilho .
+                                </p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cabelo">
+            <div class="container">
+                <h2>Cabelo</h2>
+                <div class="row">
+                    <div class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary">
+                            <div class="card-header">
+                                Cortes
+                            </div>
+                            <img src="./images/cortes.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Hair Fashion</h4>
+                                <p class="card-text">Aprenda como fazer preparação de pele perfeita e esfumados
+                                    profissionais no curso de Maquiagem profissional!
+                                    Ser maquiador profissional permite que você construa o seu horário e sua agenda de
+                                    clientes, tornando-se um negócio flexível e rentável!</p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary">
+                            <div class="card-header">
+                                Tratamento
+                            </div>
+                            <img src="./images/tratamentos-para-cabelos.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Hair Fashion</h4>
+                                <p class="card-text">Aprenda como fazer preparação de pele perfeita e esfumados
+                                    profissionais no curso de Maquiagem profissional!
+                                    Ser maquiador profissional permite que você construa o seu horário e sua agenda de
+                                    clientes, tornando-se um negócio flexível e rentável!</p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary">
+                            <div class="card-header">
+                                Coloração
+                            </div>
+                            <img src="./images/coloracao.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Hair Fashion</h4>
+                                <p class="card-text">Aprenda como fazer preparação de pele perfeita e esfumados
+                                    profissionais no curso de Maquiagem profissional!
+                                    Ser maquiador profissional permite que você construa o seu horário e sua agenda de
+                                    clientes, tornando-se um negócio flexível e rentável!</p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card-extra" class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary text-bg-secondary">
+                            <div class="card-header">
+                                Linha Card Extra
+                            </div>
+                            <img src="./images/Boot Hair.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Hair Fashion</h4>
+                                <p class="card-text">A linha Boot Hair Fashion foi desenvolvida para todos os tipos de
+                                    cabelos. Proporciona fios leves, hidratados e muito brilhantes.  As partículas de mica dourada trazem luminosidade aos
+                                    fios e os deixam radiantes. Para todos os tipos de cabelos e Brilho .
+                                </p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="maquiagem">
+            <div class="container">
+                <h2>Maquiagem</h2>
+                <div class="row">
+                    <div class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary">
+                            <div class="card-header">
+                                Kits de Maquiagem
+                            </div>
+                            <img src="./images/kit-maquiagem-profissional.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Hair Fashion</h4>
+                                <p class="card-text">Aprenda como fazer preparação de pele perfeita e esfumados
+                                    profissionais no curso de Maquiagem profissional!
+                                    Ser maquiador profissional permite que você construa o seu horário e sua agenda de
+                                    clientes, tornando-se um negócio flexível e rentável!</p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary">
+                            <div class="card-header">
+                                Pincéis de Maquiagem
+                            </div>
+                            <img src="./images/pinceis de maquiagem_1920.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Hair Fashion</h4>
+                                <p class="card-text">Aprenda como fazer preparação de pele perfeita e esfumados
+                                    profissionais no curso de Maquiagem profissional!
+                                    Ser maquiador profissional permite que você construa o seu horário e sua agenda de
+                                    clientes, tornando-se um negócio flexível e rentável!</p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary">
+                            <div class="card-header">
+                                Acessórios
+                            </div>
+                            <img src="./images/acessório de maquiagem.webp" />
+                            <div class="card-body">
+                                <h4 class="card-title">Hair Fashion</h4>
+                                <p class="card-text">Aprenda como fazer preparação de pele perfeita e esfumados
+                                    profissionais no curso de Maquiagem profissional!
+                                    Ser maquiador profissional permite que você construa o seu horário e sua agenda de
+                                    clientes, tornando-se um negócio flexível e rentável!</p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card-extra" class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary text-bg-secondary">
+                            <div class="card-header">
+                                Linha Card Extra
+                            </div>
+                            <img src="./images/Boot Hair.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Hair Fashion</h4>
+                                <p class="card-text">A linha Boot Hair Fashion foi desenvolvida para todos os tipos de
+                                    cabelos. Proporciona fios leves, hidratados e muito brilhantes.  As partículas de mica dourada trazem luminosidade aos
+                                    fios e os deixam radiantes. Para todos os tipos de cabelos e Brilho .
+                                </p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="produtos">
+            <div class="container">
+                <h2>Produtos</h2>
+                <div class="row">
+                    <div class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary">
+                            <div class="card-header">
+                                shampos naturais
+                            </div>
+                            <img src="./images/cosmetics-3485914_1920.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Hair Fashion</h4>
+                                <p class="card-text">Aprenda como fazer preparação de pele perfeita e esfumados
+                                    profissionais no curso de Maquiagem profissional!
+                                    Ser maquiador profissional permite que você construa o seu horário e sua agenda de
+                                    clientes, tornando-se um negócio flexível e rentável!</p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary">
+                            <div class="card-header">
+                                Cremes
+                            </div>
+                            <img src="./images/cremes.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Hair Fashion</h4>
+                                <p class="card-text">Aprenda como fazer preparação de pele perfeita e esfumados
+                                    profissionais no curso de Maquiagem profissional!
+                                    Ser maquiador profissional permite que você construa o seu horário e sua agenda de
+                                    clientes, tornando-se um negócio flexível e rentável!</p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary">
+                            <div class="card-header">
+                                Esmaltes
+                            </div>
+                            <img src="./images/nail-polish-760673_1920.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Hair Fashion</h4>
+                                <p class="card-text">Aprenda como fazer preparação de pele perfeita e esfumados
+                                    profissionais no curso de Maquiagem profissional!
+                                    Ser maquiador profissional permite que você construa o seu horário e sua agenda de
+                                    clientes, tornando-se um negócio flexível e rentável!</p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card-extra" class="col-12  col-md-6 col-lg-4">
+                        <div class="card text-bg-secondary text-bg-secondary">
+                            <div class="card-header">
+                                Linha Card Extra
+                            </div>
+                            <img src="./images/Boot Hair.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Hair Fashion</h4>
+                                <p class="card-text">A linha Boot Hair Fashion foi desenvolvida para todos os tipos de
+                                    cabelos. Proporciona fios leves, hidratados e muito brilhantes.  As partículas de mica dourada trazem luminosidade aos
+                                    fios e os deixam radiantes. Para todos os tipos de cabelos e Brilho .
+                                </p>
+                                <a href="#" class="btn btn-primary">Comprar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
