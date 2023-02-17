@@ -7,6 +7,10 @@ header {
     z-index: 1;
 }
 
+.navbar-toggler {
+    background-color: #fff;
+}
+
 .nav a {
     color: #fff;
 }
